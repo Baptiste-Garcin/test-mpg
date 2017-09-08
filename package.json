@@ -1,0 +1,31 @@
+{
+  "name": "test-mpg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-node": "babel-node --presets=env",
+    "start": "nodemon --exec npm run babel-node -- src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baptiste-Garcin/test-mpg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Baptiste-Garcin/test-mpg/issues"
+  },
+  "homepage": "https://github.com/Baptiste-Garcin/test-mpg#readme",
+  "dependencies": {
+    "catbox-redis": "^3.0.2",
+    "hapi": "^16.5.2",
+    "joi": "^10.6.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "nodemon": "^1.12.0"
+  }
+}
